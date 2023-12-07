@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: transparent;
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  color: white !important;
+}
+
+#villa {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/assets/img/hero_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.villa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.villa h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+.villa p {
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+}
+.villa button {
+  min-height: 30px;
+  border-radius: 20px;
+  border: 1px;
+  padding: 0px 10px;
+  color: white;
+  margin-top: 20px;
+}
+.villa .exploreBtn {
+  background-color: red;
+}
+.villa .downloadBtn {
+  background-color: transparent;
+  border: 1px solid white;
+}
+.villa .btn {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-expand-lg .navbar-toggler {
+  display: block;
+}
+
+.navbar-expand-lg .navbar-toggler {
+  display: block;
+}
+
+#visit {
+  padding: 20px;
+}
+#visit .food img {
+  max-width: 100%;
+  min-height: auto;
+  gap: 5px;
+  padding: 20px;
+}
+
+.text {
+  text-align: center;
+}
+.text h1 {
+  font-size: 60px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.text p {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+
+.img {
+  width: 100%;
+  min-height: 200px;
+  text-align: center;
+}
+.img img {
+  max-width: 80%;
+}
+
+.textRecent {
+  text-align: center;
+}
+.textRecent h1 {
+  font-size: 60px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+.textRecent p {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
